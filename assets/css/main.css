@@ -1,0 +1,639 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 11pt;
+}
+
+@font-face{
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: Poppins-Light;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face{
+    font-family: Poppins-ExtraLight;
+    src: url(../fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+
+body{
+    font-family: Poppins-Light;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+    display: block;
+}
+
+#wrap{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+}
+
+#header{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: solid 1px rgba(211, 211, 211,0.5);
+    
+}
+
+#header #logo-img{
+    display: block;
+    float: left;
+    height: 28px;
+    margin-top: 11px;
+}
+
+#header #tittle{
+    display: block;
+    float: left;
+    font-family: Poppins-Bold;
+    font-size: 28px;
+    color: #282E88;
+    margin-left: 0.5%;
+}
+
+#container{
+    display: block;
+    width: 100%;
+    min-height: 670px;
+}
+
+#container #sidebar{
+    display: block;
+    float: left;
+    width: 16%;
+    background-color: rgb(240, 240, 240);
+    height: 868px;
+
+}
+
+#container #sidebar nav{
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 2.5%;
+}
+
+#container #sidebar nav ul{
+    display: block;
+    width: 100%;
+    list-style: none;
+}
+
+#container #sidebar nav ul li{
+    display: block;
+    width: 100%;
+    color: rgb(73, 73, 73);
+    font-family: Poppins-Regular;
+    height: 30px;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+#container #sidebar nav ul li:hover{
+    
+    background: white;
+    cursor: pointer;
+}
+#container #sidebar nav ul li:hover a{
+    color: #282E88;
+}
+
+#container #sidebar nav ul li a svg{
+    display: block;
+    float: left;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+#container #sidebar nav ul li a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(73, 73, 73);
+
+}
+
+
+#container #content{
+    display: block;
+    width: 84%;
+    overflow-y: scroll;
+    height: 868px;
+}
+
+#wrap #container #content #section{
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+}
+
+#wrap #container #content #section #user-register-form{
+    display: block;
+    width: 25%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+#wrap #container #content #section #user-register-form label{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+}
+
+#user-register-form input,select,i{
+    border: 0;
+    border-bottom: 2px solid #282e88;
+}
+
+#user-register-form input,select{
+    display: block;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#wrap #container #content #section #user-register-form input[type="submit"]{
+    display: block;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px auto;
+    margin-top: 25px;
+    border-radius: 5%;
+    background-color: #282e88;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#wrap #container #content #section #user-register-form #user_type{
+    width: 100%;
+}
+
+#wrap #container #content #section #contract-request-form{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+#wrap #container #content #section #contract-request-form fieldset{
+    display: block;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#wrap #container #content #section #contract-request-form fieldset h3{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(73, 73, 73);
+}
+
+#contract-request-form label{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+}
+
+#contract-request-form input,select,i{
+    border: 0;
+    border-bottom: 2px solid #282e88;
+}
+
+#contract-request-form input,select{
+    display: block;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#contract-request-form input[type="submit"]{
+    display: block;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px auto;
+    margin-top: 25px;
+    border-radius: 5%;
+    background-color: #282e88;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+}
+#search-family-data-form{
+    display: block;
+    width: 25%;
+    height: 50px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+#search-family-data-form input[type="number"]{
+    display: block;
+    width: 70%;
+    float: left;
+}
+
+#search-family-data-form input[type="submit"]{
+    display: block;
+    float: left;
+    width: 25%;
+    height: 22px;
+    line-height: 22px;
+    margin: 0px auto;
+    margin-left: 5px;
+    border-radius: 5%;
+    background-color: #282e88;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#section-content #family-data-table{
+    clear: both;
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+#family-data-table thead{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#family-data-table thead tr{
+    display: block;
+    width: 100%;
+}
+
+#family-data-table thead tr th{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+#family-data-table tbody{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#family-data-table tbody tr{
+    display: block;
+    width: 100%;
+}
+
+#family-data-table tbody tr td{
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+#insert-family-data-form{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+#insert-family-data-form h3{
+    float: none;
+    display: block;
+    margin: 0px auto;
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#insert-family-data-form #guardar{
+    clear: both;
+    float: none;
+    display: block;
+    width: 100%;
+
+}
+
+#insert-family-data-form #guardar input{
+    clear: both;
+    float: none;
+    display: block;
+    width: 15%;
+    margin: 0px auto;
+}
+
+#insert-family-data-form input{
+    display: block;
+    float: left;
+    width: 20%;
+    margin: 0px auto;
+    margin-left: 4%;
+    margin-bottom: 10px;
+}
+
+#insert-family-data-form select{
+    display: block;
+    float: left;
+    width: 20%;
+    margin: 0px auto;
+    margin-left: 4%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#insert-family-data-form #guardar input{
+    display: block;
+    clear: both;
+    float: none;
+    width: 20%;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+#wrap #container #content #section #section-name{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: rgb(73, 73, 73);
+    
+}
+
+#wrap #container #content #section #section-content nav{
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+#wrap #container #content #section #section-content nav ul{
+    display: block;
+    width: 100%;
+    list-style: none;
+}
+
+#wrap #container #content #section #section-content nav ul li{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 1%;
+    border: 1px solid #ccc;
+    width: 150px;
+    text-align: center;
+    transition: all 300ms;
+}
+
+#wrap #container #content #section #section-content nav ul li:hover{
+    background-color: #282e88;
+    color: white;
+}
+
+#wrap #container #content #section #section-content nav ul li:hover a{
+    color: white;
+}
+
+#wrap #container #content #section #section-content nav ul li a{
+    text-decoration: none;
+    color: #282e88;
+    font-size: 18px;
+}
+
+
+
+
+/*Contract request*/
+
+#contract-requests .request select{
+    width: 200px;
+}
+
+.request{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
+
+/*Nomina*/
+
+#nomina-form{
+    clear: both;
+    float: none;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#nomina-form input,select{
+    display: block;
+    float: left;
+    width: 15%;
+    margin-left: 2%;
+}
+
+#nomina-form input[type="submit"]{
+    width: 10%;
+    background-color: white;
+    border: 1px solid #ccc;
+    height: 25px;
+    color: #282e88;
+    cursor: pointer;
+    transform: all 300ms;
+
+}
+
+#nomina-form input[type="submit"]:hover{
+    background-color: #282e88;
+    color: white;
+}
+
+#nomina{
+    clear: both;
+    float: none;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#nomina-report{
+    display: block;
+    float: right;
+    width: 12%;
+    background-color: white;
+    border: 1px solid #ccc;
+    height: 25px;
+    color: #282e88;
+    cursor: pointer;
+    transform: all 300ms;
+}
+
+#nomina-report:hover{
+    color: white;
+    background-color: green;
+}
+
+#nomina-report:hover a{
+    color: white;
+}
+
+#nomina-report a{
+    text-decoration: none;
+    color: #282e88;
+}
+
+table{
+    width: 100%;
+}
+
+tr{
+    width: 100%;
+}
+
+td{
+    text-align: center;
+    width: 20%;
+}
+
+
+
+
+/*messages*/
+#operation-success-message{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #D1E7DD;
+    font-family: Poppins-Regular;
+    color: #198754;
+    height: 144px;
+    padding: 25px;
+}
+
+#operation-error-message{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Poppins-Regular;
+    background-color:  #F8D7DA;
+    color: #DC3545;
+    padding: 25px;
+}
+
+
+/*footer*/
+
+#footer{
+    display: block;
+    width: 100%;
+    border-top: solid 1px rgba(211, 211, 211,0.5);
+    font-family: Poppins-Light;
+    text-align: center;
+}
+
+#footer p{
+    color: #282E88;
+}
+
+@media( max-width: 1366px){
+    #container #sidebar{
+        width: 20%;
+    }
+
+    #container #content{
+        width: 80%;
+    }
+}
+
+.data{
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+    padding: 5px
+}
+
+.data h3{
+    text-align: center;
+    font-size: 18px;
+}
+
+#search-data{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#personal-data{
+    display: block;
+    overflow: auto;
+}
+
+#personal-data .personal-image{
+    display: block;
+    float: left;
+    width: 165px;
+    height: 165px;
+    margin-left: 10px;
+}
+
+#personal-data .personal-image .image{
+    display: block;
+    width: 165px;
+    height: 165px;
+}
+
+.personal-data{
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.generar-reporte{
+    display: block;
+    margin: 0px auto;
+    text-decoration: none;
+    color: white;
+}
+
+.generar-reporte button{
+    display: block;
+    background-color: rgb(61, 124, 61);
+    color: white;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+}

@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Poppins-Regular;
+}
+
+@font-face{
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+
+/*..........................................INDEX.........................................*/
+
+#index{
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#logo{
+    width: 440px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#logo img{
+    display: block;
+    float: left;
+    height: 48px;
+}
+
+#logo h1{
+    color: white;
+    font-family: Poppins-Bold;
+}
+
+
+
+.wrap{
+    display: block;
+    width: 95%;
+    margin: 0px auto;
+}
+
+#header, #content{
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.login{
+    width: 400px;
+    min-height: 300px;
+    margin: 0px auto;
+    background-color: white;
+    margin-top: 10%;
+    border-radius: 5%;
+    padding: 10px;
+}
+
+.login h2{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #545454;
+    margin-top: 50px;
+}
+
+.login form{
+    
+    display: block;
+    width: 200px;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.login label{
+    display: block;
+    float: left;
+}
+
+.login #lock-fill{
+    margin-right: 2px;
+}
+
+.login input[type="text"],
+.login input[type="password"]{
+    display: block;
+    float: left;
+    width: 75%;
+    height: 25px;
+    margin-bottom: 15px;
+    border: 0;
+    border-bottom: 2px solid #282e88;
+}
+
+.login input[type="submit"]{
+    display: block;
+    width: 80px;
+    margin: 0px auto;
+    margin-top: 50px;
+    border-radius: 5%;
+    background-color: #282e88;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.login input[type="submit"]:hover{
+    background-color: #353db8;
+}
+
+#footer{
+    display: block;
+    width: 100%;
+    margin-top: 17.5%;
+}
+
+#footer p{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+/*..........................................DASHBOARD.........................................*/
+a{
+    text-decoration: none;
+    color: #545454;
+}
+
+#dashboard_nav{
+    display: block;
+    margin-top: 5%;
+}
+#dashboard_nav ul li{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+}
+
+#dashboard_nav ul li a img{
+    display: block;
+    float: left;
+    margin-right: 5px;
+    height: 22px;
+    line-height: 30px;
+}
+
+#dashboard_nav ul li a{
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+ 
+#sidebar{
+    display: block;
+    float: left;
+    width: 22%;
+    border-right: 1px solid #ccc;
+    min-height: 720px;
+    max-height: 1080px;
+}
+
+#sidebar_header{
+    display: block;
+    height: 50px;
+}
+
+#sidebar_header h1{
+    height: 50px;
+    line-height: 50px;
+}
+
+#dashboard_content{
+    display: block;
+    float: left;
+    width: 76%;
+    height: 720px;
+    padding-left: 1%;
+
+}
+
+ #dashboard_content h2{
+    display: block;
+    color: #545454;
+    font-size: 18px;
+    
+}
+
+#dashboard_logo img{
+    display: block;
+    float: left;
+    height: 18px;
+    margin-top: 14px;
+    margin-right: 2px;
+}
+
+#dashboard_logo h1{
+    color: #282e88;
+    font-family: Poppins-Bold;
+    font-size: 20px;
+}
+
+#dashboard_header{
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+#dashboard_header h2{
+    display: block;
+    float: left;
+    width: 50%;
+    line-height: 50px;
+}
+
+#dashboard_header #user_logo{
+    display: block;
+    float: right;
+}
+
+#user_logo{
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    padding: 1px;
+    border: 1px solid #ccc;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 3px;
+}
+
+#user_logo img{
+    width: 100%;
+}
+
+#dashboard_container{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    height: 620px;
+}
+
+/*RootView*/
+#user_register_form{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#user_register_form label,select{
+    display: block;
+    float: left;
+    height: 32px;
+    margin-top: 5px;
+}
+#user_register_form select{
+    margin-bottom: 5px;
+}
+
+#user_register_form label img{
+    display: block;
+    float: left;
+    width: 30px;
+    margin-top: -5px;
+}
