@@ -1,0 +1,2 @@
+Usario: root
+clave: s1sc0n0d0
